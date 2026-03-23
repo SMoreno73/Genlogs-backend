@@ -8,7 +8,7 @@ def _normalize_city(city: str) -> str:
 RULED_CARRIERS: dict[tuple[str, str], list[CarrierResponse]] = {
     (
         _normalize_city("New York"),
-        _normalize_city("Washington DC"),
+        _normalize_city("Washington"),
     ): [
         CarrierResponse(name="Knight-Swift Transport Services", trucks_per_day=10),
         CarrierResponse(name="J.B. Hunt Transport Services Inc", trucks_per_day=7),
